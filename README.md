@@ -30,6 +30,10 @@ Evaluation: Evaluate the performance of your models using the provided evaluatio
 
 Deployment: If applicable, explore options for deploying your trained models in real-world healthcare settings. Consider factors such as data privacy, model interpretability, and regulatory requirements.
 
+## References 
+
+[1] David L. Smith, John-Paul Grenier, Catherine Batte, and Bradley Spieler. A Characteristic Chest Radiographic Pattern in the Setting of the COVID-19 Pandemic. Radiology: Cardiothoracic Imaging 2020 2:5.
+
 Contributors
 Nicolas Choong (ndc2140@columbia.com)
 Qiankun Li (ql2510@columbia.edu)
