@@ -4,9 +4,11 @@ This project aims to develop and evaluate advanced machine learning models for d
 
 ## Project Overview
 
+The project uses the COVID-19 Radiography Database [1] as it's dataset. It has a total of 15153 Chest X-Rays (CXRs) belonging to 3 different classes (COVID-19,  Normal and Viral Pneumonia).
+
 The project focuses on the following key components:
 
-1. **Data Collection**: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal).
+1. (**Data Collection & Expoloration**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb]: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). 
 
 2. **Data Preprocessing**: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation.
 
