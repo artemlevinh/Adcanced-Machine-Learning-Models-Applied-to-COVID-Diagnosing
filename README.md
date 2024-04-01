@@ -23,16 +23,24 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 
 
 
-2. (**Data Preprocessing**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Augmentation%20%26%20Visualization.ipynb]: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation. W use majorly two types of Data Augmentation:
+2. (**Data Preprocessing**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Augmentation%20%26%20Visualization.ipynb]: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation. We use majorly two types of Data Augmentation:
 
 - **Symmetry:** Involves flipping an image horizontally or vertically to create new samples.
 - **Rotation:** Rotating an image by a certain angle to create new samples.
 
-3. **Model Development**: Developing and training advanced machine learning models, such as convolutional neural networks (CNNs) or deep learning models, to classify medical images as COVID-19 positive or negative. We first designed two CNN models
+3. **Model Development**: Developing and training advanced machine learning models, such as convolutional neural networks (CNNs) or deep learning models, to classify medical images as COVID-19 , Normal, orViral Pneumonia. Generally, we first deigned two CNN models, then proposes a fine-tuned CNN model. Then we employed transfer learning to train Resnet-18 & Resnet-26 for our project. For additional models, we implemented EfficientNet as well as InceptionV3. So in general, we have the following models implemented in our project:
 
-4. **Evaluation**: Evaluating the performance of the developed models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
+- **CNN-1** 12 layer CNN with max pooling. 
+- **CNN-2** 12 convolutional layers and introducing Dropout layers
+- **CNN-best_3** Fine-tuned 12-layer CNN. Hyperparameter done by Gridsearch. 
+- **ResNet-26** 
+- **Resnet-18** 
+- **EfficientNet** 
+- **InceptionV3**
+  
+5. **Evaluation**: Evaluating the performance of the developed models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
 
-5. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings, considering factors such as scalability, interpretability, and regulatory compliance.
+6. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings, considering factors such as scalability, interpretability, and regulatory compliance.
 
 ## Getting Started
 
