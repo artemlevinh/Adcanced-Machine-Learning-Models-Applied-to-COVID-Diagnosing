@@ -40,9 +40,9 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 - **[EfficientNet](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/EfficientNet.ipynb)** Scalable convolutional neural networks achieving state-of-the-art accuracy with fewer parameters.
 - **InceptionV3** A convolutional neural network with deep and wide architecture, featuring multiple inception modules.
   
-5. **Evaluation**: Evaluating the performance of the developed models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
+3. **Evaluation**: Evaluating the performance of the developed models using metrics of accuracy, and convergence rate. On the bottom of each jupyter notebook, the results are given. 
 
-6. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings, considering factors such as scalability, interpretability, and regulatory compliance.
+4. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings.
 
 ## Getting Started
 
@@ -54,9 +54,9 @@ git clone https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applie
 
 
 
-Model Development: Develop and train your machine learning models using the prepared data. Experiment with different architectures and hyperparameters to achieve the best performance.
+2.**Model Training**: Develop and train your machine learning models using the workflow defined in the jupytrer notebook.
 
-Evaluation: Evaluate the performance of your models using the provided evaluation metrics. Fine-tune your models as needed to improve their performance.
+3.**Evaluation**: Evaluate the performance of your machine learning models using the provided evaluation metrics. Fine-tune your models as needed to improve their performance.
 
 Deployment: If applicable, explore options for deploying your trained models in real-world healthcare settings. Consider factors such as data privacy, model interpretability, and regulatory requirements.
 
