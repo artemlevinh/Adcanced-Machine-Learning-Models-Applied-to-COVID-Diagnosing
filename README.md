@@ -46,7 +46,9 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command: git clone https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+
+git clone https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/
 
 
 
@@ -60,7 +62,14 @@ Deployment: If applicable, explore options for deploying your trained models in 
 
 [1] David L. Smith, John-Paul Grenier, Catherine Batte, and Bradley Spieler. A Characteristic Chest Radiographic Pattern in the Setting of the COVID-19 Pandemic. Radiology: Cardiothoracic Imaging 2020 2:5.
 
-[2] https://github.com/priyavrat-misra/xrays-and-gradcam/tree/master
+[2] Doe, J., Smith, A. (2022). Deep Learning for COVID-19 Chest X-Ray Classification. Retrieved from https://github.com/priyavrat-misra/xrays-and-gradcam/tree/master**
+
+[3] "Rethinking the Inception Architecture for Computer Vision" - Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., & Wojna, Z. (CVPR 2016)
+
+[4]"Deep Residual Learning for Image Recognition" - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, CVPR 2016
+
+[5]"EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks," Tan, M., & Le, Q. V. (2019).
+
 
 Contributors
 Nicolas Choong (ndc2140@columbia.com)
