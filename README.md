@@ -10,7 +10,7 @@ The project uses the COVID-19 Radiography Database [1] as it's dataset. It has a
 
 The project focuses on the following key components:
 
-1. (**Data Collection & Expoloration**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb]: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). This part of the project focuses on analyzing the quality and features of the dataset.
+1. [**Data Collection & Expoloration**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb): Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). This part of the project focuses on analyzing the quality and features of the dataset.
 
 Our data is CT scans similair to this:
 
@@ -25,18 +25,18 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 
 
 
-2. (**Data Preprocessing**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Augmentation%20%26%20Visualization.ipynb]: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation. We use majorly two types of Data Augmentation:
+2. [**Data Preprocessing**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Augmentation%20%26%20Visualization.ipynb): Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation. We use majorly two types of Data Augmentation:
 
 - **Symmetry:** Involves flipping an image horizontally or vertically to create new samples.
 - **Rotation:** Rotating an image by a certain angle to create new samples.
 
 3. **Model Development**: Developing and training advanced machine learning models, such as convolutional neural networks (CNNs) or deep learning models, to classify medical images as COVID-19 , Normal, orViral Pneumonia. Generally, we first deigned two CNN models, then proposes a fine-tuned CNN model. Then we employed transfer learning to train Resnet-18 & Resnet-26 for our project. For additional models, we implemented EfficientNet as well as InceptionV3. So in general, we have the following models implemented in our project:
 
-- (CNN-1)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/CNN_Model_1.ipynb] 12 layer CNN with max pooling. 
+- [**CNN-1**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/CNN_Model_1.ipynb) 12 layer CNN with max pooling. 
 - **CNN-2** 12 convolutional layers and introducing Dropout layers
 - **CNN-best_3** Fine-tuned 12-layer CNN. Hyperparameter done by Gridsearch. 
-- **(ResNet-26)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet26.ipynb]** A 26-layer deep neural network with residual connections.
-- **(Resnet-18)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet18.ipynb]** A 18-layer deep neural network with residual connections.
+- **[ResNet-26](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet26.ipynb)** A 26-layer deep neural network with residual connections.
+- **[Resnet-18](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet18.ipynb)** A 18-layer deep neural network with residual connections.
 - **EfficientNet** Scalable convolutional neural networks achieving state-of-the-art accuracy with fewer parameters.
 - **InceptionV3** A convolutional neural network with deep and wide architecture, featuring multiple inception modules.
   
