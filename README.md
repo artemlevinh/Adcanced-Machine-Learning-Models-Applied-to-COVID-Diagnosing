@@ -35,6 +35,7 @@ Deployment: If applicable, explore options for deploying your trained models in 
 ## References 
 
 [1] David L. Smith, John-Paul Grenier, Catherine Batte, and Bradley Spieler. A Characteristic Chest Radiographic Pattern in the Setting of the COVID-19 Pandemic. Radiology: Cardiothoracic Imaging 2020 2:5.
+
 [2] https://github.com/priyavrat-misra/xrays-and-gradcam/tree/master
 
 Contributors
