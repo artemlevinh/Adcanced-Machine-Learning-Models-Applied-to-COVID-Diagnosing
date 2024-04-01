@@ -1,5 +1,7 @@
 # Advanced Machine Learning Models Applied to COVID Diagnosing
 
+[OpenAI's website](https://openai.com)
+
 This project aims to develop and evaluate advanced machine learning models for diagnosing COVID-19 based on medical imaging data such as chest X-rays or CT scans. The goal is to assist healthcare professionals in quickly and accurately identifying COVID-19 cases, especially in situations where laboratory testing may be limited or unavailable.
 
 ## Project Overview
