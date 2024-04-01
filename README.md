@@ -10,7 +10,7 @@ The project focuses on the following key components:
 
 1. (**Data Collection & Expoloration**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb]: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). This part of the project focuses on analyzing the quality and features of the dataset.
 
-Our data is CT scans similair to this:<img src="https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/raw/master/assets/88550828/cb9ea00b-34da-4c15-ac1d-5024efc94ae3.jpg" alt="image" width="300" height="200">
+Our data is CT scans similair to this:<img src="https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/raw/master/assets/88550828/cb9ea00b-34da-4c15-ac1d-5024efc94ae3.jpg" alt="image" width="300" height="300">
 
 
 Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the three types have the following distrubution.
