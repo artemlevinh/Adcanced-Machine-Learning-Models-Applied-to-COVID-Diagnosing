@@ -9,17 +9,19 @@ The project uses the COVID-19 Radiography Database [1] as it's dataset. It has a
 The project focuses on the following key components:
 
 1. (**Data Collection & Expoloration**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb]: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). This part of the project focuses on analyzing the quality and features of the dataset.
+Our data is CT scans similair to this: ![image](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/9d9a5603-e402-42ab-b3e2-bc08c3e9f383)
+Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the three types have the following distrubution.
 <img src="https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/6edbc636-32f6-43e4-ac41-93bfe4c5f0d3" alt="image" width="300" height="200">
 
 
 
-2. **Data Preprocessing**: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation.
+3. **Data Preprocessing**: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation.
 
-3. **Model Development**: Developing and training advanced machine learning models, such as convolutional neural networks (CNNs) or deep learning models, to classify medical images as COVID-19 positive or negative.
+4. **Model Development**: Developing and training advanced machine learning models, such as convolutional neural networks (CNNs) or deep learning models, to classify medical images as COVID-19 positive or negative.
 
-4. **Evaluation**: Evaluating the performance of the developed models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
+5. **Evaluation**: Evaluating the performance of the developed models using metrics such as accuracy, sensitivity, specificity, and area under the receiver operating characteristic curve (AUC-ROC).
 
-5. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings, considering factors such as scalability, interpretability, and regulatory compliance.
+6. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings, considering factors such as scalability, interpretability, and regulatory compliance.
 
 ## Getting Started
 
