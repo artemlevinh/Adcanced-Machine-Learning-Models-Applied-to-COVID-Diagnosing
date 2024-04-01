@@ -13,7 +13,7 @@ The project focuses on the following key components:
 Our data is CT scans similair to this:
 
 
-![image](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/cb9ea00b-34da-4c15-ac1d-5024efc94ae3)  
+  ![image](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/cb9ea00b-34da-4c15-ac1d-5024efc94ae3)  
 
 
 Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the three types have the following distrubution.
