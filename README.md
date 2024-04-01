@@ -9,7 +9,8 @@ The project uses the COVID-19 Radiography Database [1] as it's dataset. It has a
 The project focuses on the following key components:
 
 1. (**Data Collection & Expoloration**)[https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Data%20Analysis%20Pipeline.ipynb]: Gathering a diverse and representative dataset of medical images, including chest X-rays and CT scans, from confirmed COVID-19 cases as well as non-COVID-19 cases (e.g., pneumonia, normal). This part of the project focuses on analyzing the quality and features of the dataset.
-![image](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/6edbc636-32f6-43e4-ac41-93bfe4c5f0d3)
+<img src="https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/assets/88550828/6edbc636-32f6-43e4-ac41-93bfe4c5f0d3" alt="image" width="300" height="200">
+
 
 
 2. **Data Preprocessing**: Preprocessing the medical images to ensure they are standardized and suitable for input into machine learning models. This includes tasks such as resizing, normalization, and augmentation.
@@ -45,4 +46,4 @@ Nicolas Choong (ndc2140@columbia.com)
 Qiankun Li (ql2510@columbia.edu)
 License
 
-Feel free to customize this template to fit the specific details and requirements of your project!
+Feel free to reaach out to discuss!
