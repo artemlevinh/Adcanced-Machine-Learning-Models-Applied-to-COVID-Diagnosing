@@ -38,7 +38,7 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 - **[ResNet-26](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet26.ipynb)** A 26-layer deep neural network with residual connections.
 - **[Resnet-18](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet18.ipynb)** A 18-layer deep neural network with residual connections.
 - **[EfficientNet](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/EfficientNet.ipynb)** Scalable convolutional neural networks achieving state-of-the-art accuracy with fewer parameters.
-- **InceptionV3** A convolutional neural network with deep and wide architecture, featuring multiple inception modules.
+- [**InceptionV3**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Inceptionv3_Model.ipynb) A convolutional neural network with deep and wide architecture, featuring multiple inception modules.
   
 3. **Evaluation**: Evaluating the performance of the developed models using metrics of accuracy, and convergence rate. On the bottom of each jupyter notebook, the results are given. 
 
