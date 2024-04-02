@@ -34,7 +34,7 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 
 - [**CNN-1**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/CNN_Model_1.ipynb) 12 layer CNN with max pooling. 
 - **CNN-2** 12 convolutional layers and introducing Dropout layers
-- **CNN-best_3** Fine-tuned 12-layer CNN. Hyperparameter done by Gridsearch. 
+- [**CNN-best_3**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/CNN_Best_Model_3_with_Fine_Tuning.ipynb) Fine-tuned 12-layer CNN. Hyperparameter done by Gridsearch. 
 - **[ResNet-26](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet26.ipynb)** A 26-layer deep neural network with residual connections.
 - **[Resnet-18](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Resnet18.ipynb)** A 18-layer deep neural network with residual connections.
 - **[EfficientNet](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/EfficientNet.ipynb)** Scalable convolutional neural networks achieving state-of-the-art accuracy with fewer parameters.
