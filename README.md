@@ -40,7 +40,44 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 - **[EfficientNet](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/EfficientNet.ipynb)** Scalable convolutional neural networks achieving state-of-the-art accuracy with fewer parameters.
 - [**InceptionV3**](https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/blob/main/Inceptionv3_Model.ipynb) A convolutional neural network with deep and wide architecture, featuring multiple inception modules.
   
-3. **Evaluation**: Evaluating the performance of the developed models using metrics of accuracy, and convergence rate. On the bottom of each jupyter notebook, the results are given. 
+3. **Evaluation**: Evaluating the performance of the developed models using metrics of accuracy, and convergence rate. On the bottom of each jupyter notebook, the results are given. The following the summary of the models:
+| Model          | Number of Layers | Features                         | Pooling Types       | Number of Parameters | Skip Connections | Qualitative Performance      |
+|----------------|------------------|----------------------------------|---------------------|----------------------|------------------|------------------------------|
+| InceptionV3    | 48               | Inception modules                | Average, Max        | 23.8 million         | Yes              | Good generalization          |
+| EfficientNet   | Varied (B0-B7)   | MBConv, Squeeze & Excitation     | Average             | 5.3 million (B0)     | Yes              | Struggles with complex tasks |
+| ResNet-50      | 50               | Bottleneck blocks                | Average, Max        | 25.6 million         | Yes              | Decent, needs tuning         |
+| ResNet-18      | 18               | Basic blocks                     | Average, Max        | 11.7 million         | Yes              | Excellent, some overfitting   |
+| CNN-1          | 12               | Custom Conv layers               | Max              | 3614563               | No | High accuracy, variable validation |
+| CNN-2          | 12           | Custom Conv layers, Dropout      | Max              | 5934583              | No | Moderate performance, dropout helps  |
+| CNN-3-best model| 12          | Custom Conv layers, Fine-tuned   | Max              | 10417507               | No | High accuracy, fine-tuned performance |
+
+| Model             | Test Loss | Test Accuracy | Test Precision | Test Recall |
+|-------------------|-----------|---------------|----------------|-------------|
+| InceptionV3       | 0.4615    | 80.71%        | 81.59%         | 78.93%      |
+| EfficientNet      | 1.0988    | 33.31%        | 0.0%           | 0.0%        |
+| ResNet-50         | 0.8475    | 67.31%        | N/A            | N/A         |
+| ResNet-18         | 0.2830    | 91.63%        | 91.76%         | 91.48%      |
+| CNN-3-best model  | 0.2742    | 90.16%        | N/A            | N/A         |
+| CNN-2             | 0.5495    | 75.21%        | 75.69%         | 73.82%      |
+| CNN-1             | 0.3065    | 90.32%        | 90.53%         | 90.32%      |
+
+*Note: N/A indicates data not available for those specific metrics.
+
+## **Convergence and Accuracy Analysis**: 
+
+InceptionV3: Good generalization with steady accuracy improvement, but some room for enhancement.
+
+EfficientNet: Struggles significantly, with low accuracy and large fluctuations indicating potential issues.
+
+ResNet-18: Excellent performance with high accuracy, minor signs of overfitting.
+
+ResNet-50: Decent learning with fluctuating recall, possibly needs more epochs.
+
+CNN-1: High training accuracy with unstable validation performance, may improve with further training.
+
+CNN-2: Mediocre training accuracy with unstable validation performance, may improve with further training.
+
+CNN-3-Best-model: Fine Tuned Good model with high accuracy and fat=st convergence. 
 
 4. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings.
 
@@ -71,6 +108,8 @@ Deployment: If applicable, explore options for deploying your trained models in 
 [4]"Deep Residual Learning for Image Recognition" - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, CVPR 2016
 
 [5]"EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks," Tan, M., & Le, Q. V. (2019).
+
+[6]He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 770-778).
 
 
 Contributors
