@@ -52,6 +52,8 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 | CNN-2          | 12           | Custom Conv layers, Dropout      | Max              | 5934583              | No | Moderate performance, dropout helps  |
 | CNN-3-best model| 12          | Custom Conv layers, Fine-tuned   | Max              | 10417507               | No | High accuracy, fine-tuned performance |
 
+The performance summary table is as follows:
+
 | Model             | Test Loss | Test Accuracy | Test Precision | Test Recall |
 |-------------------|-----------|---------------|----------------|-------------|
 | InceptionV3       | 0.4615    | 80.71%        | 81.59%         | 78.93%      |
@@ -64,7 +66,7 @@ Each CT scan is labeled with COVID-19,  Normal, or Viral Pneumonia, and the thre
 
 *Note: N/A indicates data not available for those specific metrics.
 
-## **Convergence and Accuracy Analysis**: 
+####  **Convergence and Accuracy Analysis**: 
 
 InceptionV3: Good generalization with steady accuracy improvement, but some room for enhancement.
 
@@ -80,23 +82,22 @@ CNN-2: Mediocre training accuracy with unstable validation performance, may impr
 
 CNN-3-Best-model: Fine Tuned Good model with high accuracy and fat=st convergence. 
 
-4. **Deployment**: Exploring options for deploying the trained models in real-world healthcare settings.
+4. **Deployment**: Use built-in functions to train and evaluate. 
 
 ## Getting Started
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+ **Clone the Repository**: Clone this repository to your local machine using the following command:
 
 git clone https://github.com/artemlevinh/Adcanced-Machine-Learning-Models-Applied-to-COVID-Diagnosing/
 
 
+**Setup** Once you clone this repo, run the main.py file to process the dataset and to train the model.
 
-2.**Model Training**: Develop and train your machine learning models using the workflow defined in the jupytrer notebook.
+$ python main.py
 
-3.**Evaluation**: Evaluate the performance of your machine learning models using the provided evaluation metrics. Fine-tune your models as needed to improve their performance.
 
-Deployment: If applicable, explore options for deploying your trained models in real-world healthcare settings. Consider factors such as data privacy, model interpretability, and regulatory requirements.
 
 ## References 
 
